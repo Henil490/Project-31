@@ -52,7 +52,7 @@ function draw() {
      
     particles[j].display();
   }
-  for (var k=0=k < plinkos.length; k++){
+  for(var k=0;k < plinkos.length; k++){
      
     divisions[k].display();
     if(frameCount%60===0){

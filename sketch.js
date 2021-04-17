@@ -53,8 +53,8 @@ function draw() {
   }
   for(var k=0;k < plinkos.length; k++){
      
-    divisions[k].display();
+    divisions[k].display();}
     if(frameCount%60===0){
-      particles.push(new Particle(random(width/2-30, width/2+30), 10,10));
+      particles.push(new Particle(random(width/2-30, width/2+30), 10,10));}
   drawSprites();
 }

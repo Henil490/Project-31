@@ -8,7 +8,6 @@ var divisions=[];
 
 var divisionHeight=300;
 
-
 function setup() {
 
   engine = Engine.create();
